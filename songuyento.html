@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="result"></div>
+</body>
+</html>
+<script>
+let n =+prompt("nhap n:");
+let check =true;
+for (let i=2;i<n;i++){
+if (n%1 ===0) {
+    check=false;
+    break;
+}
+}
+if (check) {
+    alert(n + "la so nguyen to")
+}
+else{
+        alert(n +"khong la so nguyen to")
+
+}
+</script>
